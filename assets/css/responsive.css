@@ -327,6 +327,17 @@
 
     .search-hldr input {
         padding: 5px 10px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .search-hldr input::placeholder{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .search-hldr {
+        gap: 5px;
     }
 
     .search-hldr {
@@ -425,7 +436,11 @@
     }
 
     .blog-catg-date span {
-        font-size: 11px;
+        font-size: 10px;
+    }
+
+    .blog-desc p {
+        max-width: 95%;
     }
 
     .add-hldr {
