@@ -520,6 +520,7 @@
 
     .ft-lnks-pr:has(.news-letter-foot) {
         margin-left: 0;
+        max-width: 290px;
     }
 
     .pagination-list .page-list.active-page a {
