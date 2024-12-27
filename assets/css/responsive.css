@@ -101,6 +101,23 @@
     }
 
     /* Home Page Css End */
+
+    /* Contact Page Css Start */
+
+    .contMain {
+        padding-top: 40px;
+    }
+
+    .headHldr p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .cnt-main-row {
+        margin-top: 50px;
+    }
+
+    /* Contact Page Css End */
 }
 
 @media only screen and (max-width : 768px) {
@@ -268,6 +285,44 @@
     }
 
     /* Home Page Css End */
+
+    /* Contact Page Css Start */
+    .contMain {
+        padding-top: 40px;
+    }
+
+    .cnt-main-row {
+        margin-top: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cont-left {
+        height: 400px;
+    }
+
+    .cont-left img {
+        border-radius: 20px;
+    }
+
+    .cont-right {
+        border-radius: 20px;
+        padding: 30px 20px;
+    }
+
+    .field-ct button {
+        margin-top: 10px;
+    }
+
+    .field-ct textarea {
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    .field-ct input {
+        padding: 10px 20px;
+    }
+
+    /* Contact Page Css End */
 }
 
 @media only screen and (max-width : 576px) {
@@ -331,7 +386,7 @@
         line-height: 14px;
     }
 
-    .search-hldr input::placeholder{
+    .search-hldr input::placeholder {
         font-size: 10px;
         line-height: 14px;
     }
@@ -549,4 +604,73 @@
     }
 
     /* Home Page End */
+
+    /* Contact Page Css Start */
+    .contMain {
+        padding-top: 30px;
+    }
+
+    .cnt-main-row {
+        margin-top: 30px;
+    }
+
+    .cont-left {
+        height: 300px;
+    }
+
+    .cont-left img {
+        border-radius: 10px;
+    }
+
+    .cont-right {
+        border-radius: 10px;
+        padding: 30px 20px;
+    }
+
+    .field-ct button {
+        margin-top: 10px;
+    }
+
+    .field-ct textarea {
+        border-radius: 10px;
+        padding: 10px 14px;
+        height: 150px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .field-ct textarea::placeholder,
+    .field-ct input::placeholder {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .field-ct input {
+        padding: 10px 14px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .cnt-frm-hldr {
+        gap: 10px;
+    }
+
+    .field-ct button {
+        margin-top: 0px;
+    }
+
+    .field-ct button {
+        padding: 10px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .headHldr p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 5px;
+    }
+
+    /* Contact Page Css End */
+
 }
