@@ -1,0 +1,537 @@
+@media only screen and (max-width : 1024px) {
+    /* Home Page Css Start */
+
+    .headLinks ul {
+        gap: 30px;
+    }
+
+    .headMain {
+        padding: 20px 0;
+    }
+
+    .ban-mn-hldr {
+        padding: 50px 20px;
+    }
+
+    .h1_main-head {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .ban-mn-row p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tabsBlogSec {
+        padding-top: 80px;
+    }
+
+    .head_upper-h2,
+    .head_side-h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .tabBlogHead {
+        gap: 30px;
+    }
+
+    .tabs-blog {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .prod-tab-blog-row {
+        padding-top: 30px;
+    }
+
+    .blog-tab-cnt-row {
+        gap: 30px 20px;
+    }
+
+    .blog-box-img {
+        height: 240px;
+    }
+
+    .blog-name h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .view-more-btn a {
+        margin: 50px auto 0;
+    }
+
+    .latestBlogSec {
+        padding-top: 80px;
+    }
+
+    .ltst-blg-sc-row {
+        grid-template-columns: 1fr 270px;
+    }
+
+    .blogBox.yisLay .blog-box-img {
+        height: 190px;
+    }
+
+    .pagination-list {
+        padding-top: 50px;
+    }
+
+    .instaGallSec {
+        padding-top: 80px;
+    }
+
+    .footTop {
+        padding-top: 60px;
+    }
+
+    .main-foot-row {
+        gap: 30px;
+    }
+
+    .sbscHldr {
+        gap: 15px;
+    }
+
+    .footTopImg {
+        padding-top: 50px;
+        height: 200px;
+    }
+
+    /* Home Page Css End */
+}
+
+@media only screen and (max-width : 768px) {
+    /* Home Page Css Start */
+
+    .headLogo {
+        width: 140px;
+        height: 40px;
+    }
+
+    .headMain {
+        padding: 15px 0;
+    }
+
+    .humburgerMenu {
+        display: block;
+        height: 35px;
+        width: 35px;
+        background: #FF5414;
+        border-radius: 50%;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .humburgerMenu img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1972%) hue-rotate(291deg) brightness(117%) contrast(108%);
+        height: 20px;
+        width: 20px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    .headIcons a {
+        height: 35px;
+        width: 35px;
+    }
+
+    .hed-mn-row {
+        gap: 15px;
+        grid-template-columns: 1fr max-content auto;
+    }
+
+    .headLinks {
+        display: none;
+    }
+
+    .ban-mn-hldr {
+        padding: 40px 20px;
+    }
+
+    .h1_main-head {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .ban-mn-row p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ban-mn-hldr {
+        border-radius: 20px;
+    }
+
+    .tabsBlogSec {
+        padding-top: 60px;
+    }
+
+    .head_upper-h2,
+    .head_side-h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .tabBlogContent {
+        padding-top: 20px;
+    }
+
+    .tabs-blog {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .blog-tab-cnt-row.xAcesRow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-name h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .view-more-btn a {
+        margin: 40px auto 0;
+    }
+
+    .mainBtn a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .latestBlogSec {
+        padding-top: 60px;
+    }
+
+    .ltst-blg-sc-row {
+        padding-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog-desc {
+        padding-top: 14px;
+    }
+
+    .blog-desc p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .blogBox.yisLay .blog-box-img {
+        height: 160px;
+        border-radius: 20px;
+    }
+
+    .blogBox.yisLay .blog-box-img img {
+        border-radius: 20px;
+    }
+
+    .add-hldr {
+        height: 400px;
+    }
+
+    .add-hldr img {
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .pagination-list {
+        padding-top: 40px;
+    }
+
+    .pagination-list {
+        gap: 15px;
+    }
+
+    .instaGallSec {
+        padding-top: 60px;
+    }
+
+    .footTop {
+        padding-top: 50px;
+    }
+
+    .footTopImg {
+        padding-top: 40px;
+        height: 160px;
+    }
+
+    .footBottom {
+        padding: 12px;
+    }
+
+    .main-foot-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Home Page Css End */
+}
+
+@media only screen and (max-width : 576px) {
+    /* Home Page Start */
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .hed-tp-row p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .headLogo {
+        width: 130px;
+        height: 34px;
+    }
+
+    .hed-mn-row {
+        gap: 10px;
+    }
+
+    .headIcons a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .headIcons a img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .humburgerMenu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .humburgerMenu img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .ban-mn-hldr {
+        padding: 30px 15px;
+    }
+
+    .ban-mn-row p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .h1_main-head {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .search-hldr input {
+        padding: 5px 10px;
+    }
+
+    .search-hldr {
+        padding: 4px 4px;
+    }
+
+    .search-hldr button {
+        height: 26px;
+        width: 26px;
+    }
+
+    .search-hldr button img {
+        height: 13px;
+        width: 13px;
+    }
+
+    .catg-btn {
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .ban-mn-hldr {
+        border-radius: 10px;
+    }
+
+    .tabsBlogSec {
+        padding-top: 40px;
+    }
+
+    .head_upper-h2,
+    .head_side-h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .tabBlogHead {
+        gap: 15px;
+    }
+
+    .prod-tab-blog-row {
+        padding-top: 20px;
+    }
+
+    .tabBlogContent {
+        padding-top: 10px;
+    }
+
+    .blog-tab-cnt-row.xAcesRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .blog-box-img {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .blog-box-img img {
+        border-radius: 10px;
+    }
+
+    .blog-name h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mainBtn a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .view-more-btn a {
+        margin: 30px auto 0;
+    }
+
+    .blogBox {
+        gap: 10px;
+    }
+
+    .blogBox.yisLay .blog-box-img {
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    .blogBox.yisLay .blog-box-img img {
+        border-radius: 10px;
+    }
+
+    .blog-desc {
+        padding-top: 10px;
+    }
+
+    .blog-desc p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .blog-catg-date span {
+        font-size: 11px;
+    }
+
+    .add-hldr {
+        height: 300px;
+    }
+
+    .add-hldr img {
+        border-radius: 10px;
+    }
+
+    .ltst-blg-sc-row {
+        gap: 30px;
+    }
+
+    .instaGallSec {
+        padding-top: 40px;
+    }
+
+    .main-foot-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ft-lnks-pr:has(.news-letter-foot) {
+        margin-left: 0;
+    }
+
+    .pagination-list .page-list.active-page a {
+        height: 27px;
+        width: 27px;
+    }
+
+    .pagination-list .page-list a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .main-foot-row {
+        gap: 20px;
+    }
+
+    .linkSite li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .linkSite {
+        padding-top: 10px;
+    }
+
+    .ft-lnks-pr h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sbscHldr input,
+    .sbscHldr input::placeholder {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .sbscHldr input {
+        padding: 3px 10px;
+    }
+
+    .sbscHldr {
+        gap: 10px;
+    }
+
+    .footTop {
+        padding-top: 40px;
+    }
+
+    .socList {
+        gap: 15px;
+        padding-top: 15px;
+    }
+
+    .ft-lnks-pr p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+
+    .news-letter-foot {
+        padding-top: 20px;
+    }
+
+    .sbscHldr button {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 6px 15px;
+    }
+
+    .footTopImg {
+        padding-top: 30px;
+        height: 140px;
+    }
+
+    .footBottom {
+        padding: 10px;
+    }
+
+    .footBottom p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* Home Page End */
+}
