@@ -15,6 +15,13 @@
 
 body {
     font-family: "poppins", sans-serif;
+    background: #fffbf6;
+    color: #384337;
+}
+
+p,
+span {
+    color: #000000;
 }
 
 h1,
@@ -76,6 +83,10 @@ img {
 
 .headMain {
     padding: 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background: #fffbf6;
 }
 
 .hed-mn-row {
@@ -473,12 +484,14 @@ img {
 
 .add-hldr {
     width: 100%;
+    height: 470px;
 }
 
 .add-hldr img {
     width: 100%;
     object-fit: cover;
     border-radius: 30px;
+    height: 100%;
 }
 
 
@@ -578,9 +591,13 @@ img {
 }
 
 .instaGallSec .container {
-    max-width: 1600px;
+    max-width: 100%;
     padding: 0;
     margin: 0 auto;
+}
+
+.ins-sec-row img {
+    width: 100%;
 }
 
 .mainFooter {
@@ -666,6 +683,22 @@ img {
     line-height: 30px;
     text-align: left;
     color: #fff;
+    position: relative;
+}
+
+.linkSite li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #FF5414;
+    transition: width 0.3s ease;
+}
+
+.linkSite li a:hover::after {
+    width: 100%;
 }
 
 .news-letter-foot {
@@ -1016,6 +1049,8 @@ img {
 
 .latestBlog-hldr {
     margin-top: 30px;
+    position: sticky;
+    top: 10px;
 }
 
 .latestBlog-hldr h3 {
@@ -1113,21 +1148,23 @@ img {
     position: relative;
 }
 
-.prevBlog img, .nextBlog img {
+.prevBlog img,
+.nextBlog img {
     height: 15px;
     width: 15px;
     margin: 0;
 }
 
-.prevBlog a , .nextBlog a{
+.prevBlog a,
+.nextBlog a {
     font-size: 16px;
     line-height: 1;
     color: #000;
     font-weight: 400;
 }
 
-.prevBlog a::after , 
-.nextBlog a::after{
+.prevBlog a::after,
+.nextBlog a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -1137,10 +1174,10 @@ img {
 }
 
 .followMe {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
-.followMe h3{
+.followMe h3 {
     font-size: 22px;
     line-height: 1;
     color: #384337;
@@ -1151,11 +1188,11 @@ img {
     background: #EADAC566;
 }
 
-.followMe .socList li a:hover{
+.followMe .socList li a:hover {
     background: #384337;
 }
 
-.followMe .socList li a:hover img{
+.followMe .socList li a:hover img {
     filter: brightness(0) saturate(100%) invert(92%) sepia(23%) saturate(283%) hue-rotate(316deg) brightness(104%) contrast(94%);
 }
 
@@ -1176,3 +1213,33 @@ img {
 }
 
 /* realtedBlogSec */
+
+/* aboutMainSec */
+
+.aboutMainSec {
+    padding-top: 20px;
+}
+
+.aboutMainSec .container {
+    max-width: 1000px;
+}
+
+.abt-row {
+    padding-top: 20px;
+}
+
+.abt-row p {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+
+.abt-row h3 {
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* aboutMainSec */

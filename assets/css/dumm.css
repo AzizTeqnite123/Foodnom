@@ -1,0 +1,1640 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    font-family: "Archivo", sans-serif !important;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.get-quote-section .page-width {
+    padding: 0 20px;
+}
+
+.quote-main-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #000000;
+    margin: 20px 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.main-charges-wrap p span:last-child {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+h1.quote-title {
+    margin: 0px 0 16px;
+}
+
+.quote-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 40px 0 30px;
+}
+
+.quote-title-h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote-main-wrapper .charges-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    line-height: 19px;
+}
+
+.main-charges-wrap .charges-title {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.quote-main-wrapper {
+    padding: 20px 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin: 30px 0px 50px;
+}
+
+.quote-info-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.quote-info-image img {
+    display: block;
+    width: 100%;
+    max-width: 160px;
+    aspect-ratio: 236 / 162;
+    object-fit: contain;
+    margin-left: auto;
+}
+
+.discount-details-wrap .quote-info-image img {
+    max-width: 300px;
+    aspect-ratio: 300/206;
+}
+
+.quote-info-content .quote--container {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.quote-info-charges {
+    display: flex;
+    gap: 40px;
+    /* display:none; */
+}
+
+.quote-info-charges p {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #646464;
+    /* margin-top: 5px; */
+    margin: 0;
+    position: relative;
+    gap: 10px;
+}
+
+.quote-info-price {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quote-info-charges p:first-child:after {
+    content: "";
+    width: 1px;
+    height: 30px;
+    display: block;
+    background-color: #0000003d;
+    position: absolute;
+    right: -20px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.main-charges-wrap p {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    /* line-height: 14px; */
+}
+
+.quote-discount-main-wrapper {
+    margin-top: 40px;
+}
+
+.main-wrapper--inner {
+    background: #dbdbdb4d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.discount-top-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.discount-field-wrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+.discount-field-wrapper input[type="radio"]::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.discount-field {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: flex-start;
+    gap: 20px;
+    height: max-content;
+    user-select: none;
+}
+
+.discount-field input:where([type="radio"]) {
+    border-radius: 5px !important;
+}
+
+.discount-field input[type="radio"]:checked {
+    outline: none !important;
+    border: 0px solid transparent !important;
+}
+
+.discount-field input[type="radio"]:checked::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 6.5px;
+    top: 4px;
+    width: 5px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.quote-main-wrapper input:where([type="radio"]) {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px !important;
+    height: 16px !important;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background: #fff no-repeat center center;
+    border-radius: 50%;
+    margin: 3px 0 0;
+    padding: 0;
+}
+
+.quote-main-wrapper input:where([type="radio"]):where(:active:not(:disabled), :focus) {
+    /* border-color: #000;
+    outline: 3px solid #fff;
+    outline-offset: -2px; */
+}
+
+.quote-main-wrapper input[type="radio"]:checked {
+    background: #3f7149;
+    /* border-color: #FFF; */
+    border: 4px solid #fff;
+    outline: 2px solid #ddd;
+    outline-offset: -2px;
+}
+
+.quote-main-wrapper input[type="radio"]:checked~label {
+    font-weight: 500;
+    color: #000;
+    user-select: none;
+}
+
+.quote-main-wrapper input[type="radio"]:checked~.discount-price span {
+    font-weight: 500 !important;
+}
+
+.discount-field label,
+.discount-price span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    display: block;
+    margin-top: 2px;
+    color: #6a6a6a;
+}
+
+.discount-price span {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+button.button.apply-discount-btn {
+    background: #3f7149;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0px 22px;
+    min-height: 60px;
+    border: transparent;
+    outline: transparent;
+    margin-top: 10px;
+    transition: all ease 0.7s;
+    color: #fff;
+}
+
+button.button.apply-discount-btn:hover {
+    background: #3f7149a9;
+}
+
+button.button.apply-discount-btn::before,
+button.button.apply-discount-btn::after {
+    box-shadow: none !important;
+}
+
+button.button.apply-discount-btn span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.quote-discount-detail {
+    transition: all 1s ease-out;
+    transition: width 1s linear 0.33s, height 0.8s linear;
+}
+
+.quote-discount-detail .quote-title-h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.discount-wrap .charges-title {
+    margin-top: 24px;
+}
+
+.discount-wrap p {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 100%;
+}
+
+/* .discoubt-wrap-inner {
+  max-width: 65%;
+} */
+
+/* ..................................................... */
+
+.quote-main-wrapper p.quote-id {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    display: none;
+}
+
+.quote-discount-detail p {
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.quote-discount-detail p>.container-storage {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.quote-discount-detail p.quote-id {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.form-input-inner.d-flex {
+    max-width: 12%;
+}
+
+.form-input-inner.d-flex .input-holder {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-form-inner {
+    background: #dbdbdb4d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.quote-form-inner h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.quote-form-inner span {
+    line-height: 1.3em;
+    display: block;
+}
+
+.form-input-inner.radios-wrapper {
+    /* display: flex !important; */
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 0px;
+}
+
+.form-input-inner.radios-wrapper .input-holder {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 59%;
+    margin-top: 24px;
+}
+
+.form-input-wrapper .form-input-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    gap: 16px 30px;
+    margin-top: 10px;
+}
+
+.form-input-wrapper .form-input-inner .input-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-form-inner h3 {
+    /* margin: 20px 0 4px; */
+}
+
+.input-holder input[type="text"],
+.form-input-wrapper input[type="text"],
+.input-holder input[type="email"],
+.form-input-wrapper .form-input-inner .input-holder input[type="number"] {
+    min-height: 40px;
+    box-shadow: none !important;
+    background: #fafafa !important;
+    outline: none !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.form-input-wrapper .form-input-inner.radios-wrapper {
+    /* display: flex !important;
+    align-items: baseline; */
+    /* justify-content: space-between; */
+}
+
+.form-input-wrapper .form-input-inner.radios-wrapper .input-holder {
+    flex-direction: row !important;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.form-input-wrapper .form-input-inner.radios-wrapper .input-holder .padlock--ownership {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.form-input-wrapper .form-input-inner.radios-wrapper .input-holder .padlock--ownership label {
+    font-size: 14px !important;
+    line-height: 14px !important;
+}
+
+.quote-main-wrapper .padlock--ownership input:where([type="radio"]) {
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0 !important;
+}
+
+.form-input-inner.radios-wrapper label {
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+.form-input-inner.radios-wrapper .input-holder {
+    margin-bottom: 10px;
+}
+
+.form-input-inner.radios-wrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.request-quote-btns {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: end;
+}
+
+.request-quote-btns input::after,
+.request-quote-btns button::after {
+    display: none;
+}
+
+.request-quote-btns input::before,
+.request-quote-btns button::before {
+    display: none;
+}
+
+.request-quote-btns button.button.book-now-button,
+.discount-apply-section button.book-now-button,
+.book-this-unit-without-discount button[type="submit"] {
+    background: #3f7149;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 18px 56.5px;
+    border-radius: 10px;
+    transition: 0.7s all ease;
+    min-width: 260px;
+    height: 63.2px;
+    text-transform: capitalize;
+    border: none;
+}
+
+.request-quote-btns button.button.book-now-button:hover,
+.discount-apply-section button.book-now-button:hover,
+.book-this-unit-without-discount button[type="submit"]:hover {
+    background: #6a6a6a;
+}
+
+.discount-apply-section {
+    /* margin-top: 30px; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+    /* padding-top: 35px; */
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+}
+
+.discount-quote-row {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.discount-button-row {
+    display: flex;
+    align-items: center;
+    gap: 0px 30px;
+}
+
+.request-quote-btns input.button,
+.email-quote-btn span {
+    background: #6a6a6a;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 18px 56.5px;
+    border-radius: 10px;
+    transition: 0.7s all ease;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 63.2px;
+}
+
+.discount-button-row .email-quote-btn {
+    display: none;
+}
+
+.get-quote-section:has(.main-quote-form.default-hide) .discount-button-row .email-quote-btn {
+    display: block;
+}
+
+.request-quote-btns input.button:hover,
+.email-quote-btn span:hover {
+    background: #3f7149;
+}
+
+/* .form-input-inner .input-holder label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+} */
+
+select#rate-lock {
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #6a6a6a;
+}
+
+.form-input-inner h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: none;
+}
+
+.form-input-inner.radios-wrapper.w-100 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-input-wrapper .input-holder label {
+    color: #000 !important;
+    display: block;
+}
+
+.form-input-wrapper.single-field {
+    margin-top: 20px;
+}
+
+.discount-details-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#place-container-text {
+    display: none;
+}
+
+.discount-apply-btn {
+    display: none;
+}
+
+/* ......................media...................... */
+
+@media only screen and (max-width: 1024px) {
+
+    h2.form-status-list svg {
+        width: 50px !important;
+    }
+
+    .quote-main-wrapper p {
+        font-size: 16px;
+    }
+
+    .quote-title {
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    p.quite-id {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .quote-info-content .quote--container {
+        margin-top: 30px;
+    }
+
+    button.button.apply-discount-btn {
+        min-height: 54px;
+    }
+
+    button.button.apply-discount-btn span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .quote-title-h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .quote-title {
+        margin: 30px 0 20px;
+    }
+
+    .request-quote-btns button.button.book-now-button {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 17.5px 40px;
+        height: 56.6px;
+        min-width: 203.5px;
+    }
+
+    .request-quote-btns input.button {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 33.5px;
+    }
+
+    .form-input-wrapper .form-input-inner,
+    .request-quote-btns {
+        gap: 20px;
+    }
+
+    .form-input-wrapper {
+        max-width: 60vw;
+    }
+
+    .discount-details-wrap {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .discount-details-wrap .quote-info-image img {
+        max-width: 260px;
+        aspect-ratio: 260 / 166;
+    }
+
+    .request-quote-btns input.button,
+    .email-quote-btn span {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 33.5px;
+        border-radius: 10px;
+        height: 50px;
+    }
+
+    .request-quote-btns button.button.book-now-button,
+    .discount-apply-section button.book-now-button,
+    .book-this-unit-without-discount button[type="submit"] {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 33.5px;
+        border-radius: 10px;
+        min-width: max-content;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .quote-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    p.quite-id {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .quote-info-content .quote--container {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    button.button.apply-discount-btn {
+        min-height: 50px;
+    }
+
+    button.button.apply-discount-btn span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .quote-title-h4 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .quote-title {
+        margin: 20px 0 10px;
+    }
+
+    .request-quote-btns button.button.book-now-button {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 30px;
+        min-width: 172.64px;
+        height: 49.6px;
+    }
+
+    .request-quote-btns input.button {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 36px;
+    }
+
+    .form-input-wrapper .form-input-inner,
+    .request-quote-btns {
+        gap: 15px;
+    }
+
+    .form-input-wrapper {
+        max-width: 60vw;
+    }
+
+    .discount-field label,
+    .discount-price span,
+    .quote-main-wrapper p {
+        font-size: 15px;
+    }
+
+    .quote-main-wrapper p.quote-id {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    button.button.apply-discount-btn {
+        min-height: 48px;
+    }
+
+    .discoubt-wrap-inner {
+        max-width: 100%;
+    }
+
+    .form-input-wrapper {
+        max-width: 70vw;
+    }
+
+    .quote-form-inner h3 {
+        margin: 10px 0;
+    }
+
+    .discount-details-wrap .quote-info-image img {
+        max-width: 220px;
+        aspect-ratio: 200 / 136;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .quote-main-wrapper {
+        padding: 20px 15px;
+    }
+
+    h1.quote-title {
+        margin: 0px 0 10px;
+    }
+
+    .quote-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .quote-info-wrap {
+        flex-direction: column;
+    }
+
+    .quote-info-image {
+        margin: auto;
+    }
+
+    .main-wrapper--inner {
+        padding: 15px 15px;
+    }
+
+    .discount-field label,
+    .discount-price span,
+    .quote-main-wrapper p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .quote-main-wrapper p.quote-id {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .quote-info-charges {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .total-hightlighter {
+        display: grid;
+        align-items: center;
+    }
+
+    .quote-info-charges p:first-child:after {
+        right: -15px;
+    }
+
+    .quote-info-charges p {
+        gap: 5px;
+    }
+
+    .quote-info-price,
+    .quote-main-wrapper .charges-title {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .main-charges-wrap .charges-title {
+        margin-bottom: 10px;
+    }
+
+    .quote-title {
+        margin: 20px 0 20px;
+    }
+
+    .main-wrapper--inner {
+        margin: 10px 0;
+    }
+
+    .discount-field {
+        gap: 10px;
+    }
+
+    button.button.apply-discount-btn span,
+    .quote-title-h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    button.button.apply-discount-btn {
+        min-height: 42px;
+        margin: 0;
+    }
+
+    .discount-wrap .charges-title {
+        margin-top: 15px;
+    }
+
+    .form-input-wrapper {
+        max-width: 100%;
+    }
+
+    .form-input-wrapper .form-input-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .form-input-inner.radios-wrapper {
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    .form-input-wrapper .form-input-inner .input-holder {
+        gap: 5px;
+    }
+
+    .form-input-wrapper {
+        gap: 10px;
+    }
+
+    .form-input-inner.radios-wrapper h4 {
+        margin: 10px 0;
+    }
+
+    .form-input-wrapper .form-input-inner.radios-wrapper .input-holder {
+        margin-bottom: 10px;
+    }
+
+    .request-quote-btns {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form-input-inner.radios-wrapper.w-100 {
+        grid-template-columns: 1fr;
+    }
+
+    .request-quote-btns input.button {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 12px 30px;
+    }
+
+    .request-quote-btns button.button.book-now-button {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 12px 24px;
+        height: 40.6px;
+    }
+
+    .discount-field label,
+    .discount-price span {
+        margin-top: 0;
+    }
+
+    .email-quote-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .request-quote-btns input.button {
+        width: 100%;
+    }
+
+    .request-quote-btns button.button.book-now-button {
+        width: 100%;
+    }
+
+    .book-unit-btn {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .discount-details-wrap {
+        grid-template-columns: 100%;
+        margin-bottom: 20px;
+    }
+
+    .discount-details-wrap .quote-info-image {
+        display: none;
+    }
+
+    .form-input-wrapper {
+        margin-top: 12px;
+    }
+
+    .discount-button-row {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .request-quote-btns input.button,
+    .email-quote-btn span {
+        font-size: 14px;
+        line-height: 14px;
+        height: 44px;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .request-quote-btns button.button.book-now-button,
+    .discount-apply-section button.book-now-button,
+    .book-this-unit-without-discount button[type="submit"] {
+        font-size: 14px;
+        line-height: 14px;
+        height: 44px;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form.book-this-unit-without-discount {
+        padding-top: 10px;
+    }
+
+    span.unit-error {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .main-charges-wrap p span:last-child {
+        font-size: 16px;
+    }
+
+    .total-hightlighter {
+        padding: 6px 15px !important;
+    }
+
+    .total-hightlighter span {
+        font-size: 14px !important;
+    }
+
+    .form-messages p {
+        font-size: 12px !important;
+    }
+
+    body .discount-field>label:after {
+        left: 4.4px !important;
+        top: 4.6px !important;
+    }
+
+    .discount-quote-row {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .form-input-inner h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    body .form-input-inner.radios-wrapper label {
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+
+    body .form-input-wrapper .input-holder label {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    body .discount-field label {
+        gap: 10px;
+    }
+
+    body .form-input-wrapper .form-input-inner.radios-wrapper .input-holder .padlock--ownership label {
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
+
+    body .quote-main-wrapper input:where([type="radio"]) {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .form-input-wrapper.single-field {
+        margin-top: 0;
+    }
+}
+
+.discoubt-wrap-inner .lock-fee {
+    display: none;
+}
+
+.form-messages p {
+    font-weight: 600;
+    color: red;
+    font-size: 14px;
+}
+
+.billing-address-wrap,
+#rate-lock,
+.padlock--ownership {
+    display: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #3f7149;
+}
+
+.quote-final-price {
+    display: flex;
+    gap: 5px;
+}
+
+/* BUTTON LOADING ANUMATION */
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.button.loading {
+    color: transparent;
+    position: relative;
+}
+
+.loading__spinner {
+    position: absolute;
+    z-index: 1;
+    width: 1.8rem;
+}
+
+.loading__spinner {
+    width: 1.8rem;
+    display: inline-block;
+}
+
+.button.loading>.loading__spinner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button.loading>.loading__spinner .spinner {
+    width: fit-content;
+}
+
+.spinner {
+    animation: rotator 1.4s linear infinite;
+}
+
+.button.loading>.loading__spinner .path {
+    stroke: #fff;
+}
+
+.path {
+    stroke-dasharray: 280;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    stroke: rgb(var(--color-foreground));
+    animation: dash 1.4s ease-in-out infinite;
+}
+
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 280;
+    }
+
+    50% {
+        stroke-dashoffset: 75;
+        transform: rotate(135deg);
+    }
+
+    100% {
+        stroke-dashoffset: 280;
+        transform: rotate(450deg);
+    }
+}
+
+/* New Checkbox Css Start */
+.discount-field label {
+    z-index: 1;
+    cursor: pointer !important;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discount-field:has(> input[type="checkbox"]:checked)>label {
+    font-weight: 500;
+    color: #000000;
+}
+
+.discount-field>input[type="checkbox"] {
+    display: none;
+}
+
+.discount-field>label::after {
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0566/8300/4037/files/checkbox-check.svg?v=1731685515);
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 4.8px;
+    top: 5.8px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.discount-field:has(> input[type="checkbox"]:checked)>label::after {
+    opacity: 1;
+}
+
+.discount-field:has(> input[type="checkbox"]:checked)>label::before {
+    background-color: #3f7149;
+}
+
+.discount-field>label::before {
+    content: "";
+    border: 1px solid #dedede;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+
+/* New Checkbox Css END */
+
+/* book-this-unit-without-discount Form Start */
+form.book-this-unit-without-discount {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+}
+
+/* book-this-unit-without-discount Form End */
+
+.total-hightlighter {
+    background-color: #ffffffc7;
+    padding: 10px 20px;
+    border: 1px solid #3f7149 !important;
+}
+
+.total-hightlighter span {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.actual-total-chrages {
+    display: none !important;
+}
+
+.main-charges-wrap:has(.total-rates) {
+    display: none;
+}
+
+span.unit-error {
+    opacity: 1;
+    display: none;
+    /* pointer-events: none; */
+    transition: all 0.2s;
+    color: red;
+    /* position: absolute; */
+    /* top: 0px; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* .book-this-unit-without-discount span.unit-error {
+  position: absolute;
+  top: 0px;
+} */
+
+.discount-apply-section:has(.erorr-active) span.unit-error,
+span.unit-error.active {
+    opacity: 1;
+    display: block;
+    pointer-events: all;
+}
+
+.discoubt-wrap-inner p:has(> .pickup-fee) {
+    opacity: 0.5;
+}
+
+h2.form-status-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px 5px;
+}
+
+h2.form-status-list svg {
+    width: 60px;
+    border-radius: 10000px;
+}
+
+.erorr_message>p {
+    color: red;
+}
+
+.quote-description p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 900px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+}
+
+.quote-description {
+    padding-bottom: 30px;
+}
+
+.discount-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote-discount-chart p {
+    font-style: italic;
+    margin: 0px;
+}
+
+span.unit-error a {
+    text-decoration: underline;
+    color: #ffffff;
+    padding: 5px 11px 5px 25px;
+    position: relative;
+    background-color: #ff4266;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+span.unit-error a::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 6px;
+    top: calc(50% - 8px);
+    background-image: url(/cdn/shop/files/cart-svg.svg?v=1734019204);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: brightness(0) invert(1);
+}
+
+p.CartItem__Variant {
+    display: none !important;
+}
+
+.hide-email-quote {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* .form-note span {
+    font-style: italic;
+    color: #ff8409;
+    text-align: right;
+    display:none;
+}
+
+.quote-form-inner:has(.hide-billing) .form-note span {
+    display: block;
+} */
+
+.default-hide {
+    display: none;
+}
+
+.padlock-holder {
+    display: flex;
+    gap: 0px 60px;
+}
+
+.padlock-error p {
+    color: red;
+}
+
+.padlock--ownership .input-holder {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+.padlock--ownership .input-holder label {
+    /* font-size: 14px; */
+    line-height: 1;
+    user-select: none;
+}
+
+input#place-container-text {
+    min-height: 40px;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    outline: none !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 290px;
+}
+
+input#place-container-text:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.template-cart .QuantitySelector__Button {
+    pointer-events: none;
+    display: none !important;
+}
+
+.PageContent .Cart__ItemList .CartItem .QuantitySelector .QuantitySelector__CurrentQuantity {
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 575px) {
+    .quote-info-charges p span:first-child {
+        font-size: 18px;
+    }
+
+    .form-input-inner h4 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .form-container-placeholder .form-input-inner h4 {
+        margin-top: 0 !important;
+    }
+
+    .form-container-placeholder,
+    .padlock-radios {
+        margin-bottom: 10px;
+    }
+
+    .form-input-inner {
+        flex-direction: column;
+    }
+
+    span.unit-error a::after {
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        left: 5px;
+        top: calc(50% - 7px);
+    }
+
+    span.unit-error a {
+        font-size: 10px;
+        padding: 5px 8px 5px 20px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .padlock-holder {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .padlock-holder .padlock-radios h4,
+    .padlock-holder .container-placeholder h4 {
+        margin-bottom: 10px !important;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    body .quote-main-wrapper label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.quote-info-charges p span:first-child {
+    font-size: 22px;
+}
+
+.main-charges-wrap padlock-holder h4 {}
+
+.padlock-holder h4 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.form-input-inner {
+    display: flex;
+    gap: 0px 60px;
+    margin-top: 30px;
+}
+
+.form-padlock--ownership {
+    display: none;
+    gap: 5px;
+    margin: 8px 0;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.form-container-placeholder>input[type="text"] {
+    min-height: 40px;
+    box-shadow: none !important;
+    background: #fff !important;
+    outline: none !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 290px;
+    display: none;
+}
+
+.discount-apply-section:has(.button.book-now-button.error-active) span.unit-error {
+    display: block;
+}
+
+.main-charges-wrap:has(h5) p:last-child {
+    margin-bottom: 0px;
+}
+
+.template-get-a-quote h1.page_header_heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form-input-inner:has(#same-billing-yes),
+.billing-address-content {
+    display: none;
+}
+
+/* popup Css Start */
+.form-popup-close svg {
+    width: 15px;
+    height: 15px;
+}
+
+.form-success-popup .form-success-ovly {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000ad;
+    z-index: 9;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.form-success-content {
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    width: 100%;
+    height: fit-content;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px 10px 30px;
+    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.form-popup-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    height: fit-content;
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+}
+
+body:has(.form-success-popup.active) {
+    overflow: hidden;
+}
+
+.form-success-popup.active .form-success-ovly {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.form-success-popup.active .form-success-content {
+    pointer-events: all;
+    opacity: 1;
+}
+
+h2.form-status.form-status-list:focus-visible {
+    outline: none !important;
+}
+
+.quote-info-content small {
+    font-size: 40%;
+    display: block;
+}
+
+/* popup Css End */
