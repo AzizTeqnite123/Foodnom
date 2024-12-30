@@ -18,3 +18,43 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+function faqsAccordion() {
+    const accordionSections = document.querySelectorAll(".faq__accordion");
+
+    accordionSections.forEach(section => {
+        const accordionItemHeaders = section.querySelectorAll(".accordion-item-header");
+
+        if (accordionItemHeaders.length > 0) {
+            const firstAccordionItemHeader = accordionItemHeaders[0];
+            const firstAccordionItemBody = firstAccordionItemHeader.nextElementSibling;
+
+            firstAccordionItemHeader.classList.add("active");
+            firstAccordionItemBody.style.maxHeight = firstAccordionItemBody.scrollHeight + "px";
+        }
+
+        accordionItemHeaders.forEach(accordionItemHeader => {
+            accordionItemHeader.addEventListener("click", event => {
+                const accordionItemBody = accordionItemHeader.nextElementSibling;
+
+                accordionItemHeaders.forEach(item => {
+                    if (item !== accordionItemHeader) {
+                        item.classList.remove("active");
+                        item.nextElementSibling.style.maxHeight = 0;
+                    }
+                });
+
+                accordionItemHeader.classList.toggle("active");
+
+                if (accordionItemHeader.classList.contains("active")) {
+                    accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+                } else {
+                    accordionItemBody.style.maxHeight = 0;
+                }
+            });
+        });
+    });
+}
+
+faqsAccordion();
+
