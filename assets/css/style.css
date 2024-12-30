@@ -1136,6 +1136,33 @@ img {
     width: 100%;
 }
 
+.followMe {
+    margin-top: 40px;
+}
+
+.followMe h3{
+    font-size: 22px;
+    line-height: 1;
+    color: #384337;
+    margin: 0;
+}
+
+.followMe .socList li a {
+    background: #EADAC566;
+}
+
+.followMe .socList li a:hover{
+    background: #384337;
+}
+
+.followMe .socList li a:hover img{
+    filter: brightness(0) saturate(100%) invert(92%) sepia(23%) saturate(283%) hue-rotate(316deg) brightness(104%) contrast(94%);
+}
+
+.followMe .socList li a img {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(3%) saturate(2548%) hue-rotate(68deg) brightness(104%) contrast(91%);
+}
+
 /* innerBlogMain */
 
 /* realtedBlogSec */
